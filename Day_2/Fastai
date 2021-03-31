@@ -1,0 +1,12 @@
+Fastai Learning updates for 31.03.21
+
+Source : https://www.youtube.com/watch?v=_QUEXsHfsA0
+
+Things learned : 
+
+- About the traditional approach of programming which is feed in the input to a program and it will produce the output
+- We have to change the approach to make a machine think like humans 
+- Therefore instead of telling the computers for how to solve the problems, we can show examples of the problem to solve and let it figure out how to come up with the solution.
+- Learned how to set the environment and ran the first "hello world" of fastai program
+
+

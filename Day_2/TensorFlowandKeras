@@ -1,0 +1,11 @@
+Tensor flow Learning updates for 31.03.21
+
+Source : https://www.tensorflow.org/tutorials/keras/text_classification
+
+Things learnt : 
+- Basic Text classfication 
+- Learned how to train and use sentimental model - used to analyze a text string and classify it with one of the labels that you provide; for example, you could analyze a tweet to determine whether it is positive or negative, or analyze 
+- Learned to spilt the given dataset into three sets - train, test and validate using tf.keras.preprocessing.text_dataset_from_directory
+- About the processing steps - Standardization,Tokenization and Vectorization
+
+
