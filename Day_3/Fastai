@@ -1,0 +1,13 @@
+Fastai Learning updates for 01.04.21
+
+Source : https://www.youtube.com/watch?v=_QUEXsHfsA0
+
+Things learned : 
+
+- Learned about stochastic gradient  descent - to determine how good is the model is working or doing its task
+- Fundamental things to remember when building a model
+    # model cannot be created without data
+    # It can only operate with the patterns that it see present in the input data which is used to train it
+    # A model can make predictions but not recommendations
+- Learned about the positive feedback loop 
+- When training a model, we have to make sure that we dont overfit it - we have to proper fit . The craft of DL is to create a model with proper fit. If we to know if the model is proper fit is to check if the model is performing well with data that was not used to train the model
