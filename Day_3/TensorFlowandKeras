@@ -1,0 +1,16 @@
+Tensor flow Learning updates for 01.04.21
+
+Source : https://www.tensorflow.org/tutorials/keras/text_classification_with_hub
+
+Things learnt : 
+- Learned about TensorFlow hub 
+- The TensorFlow Hub lets you search and discover hundreds of trained, ready-to-deploy machine learning models in one place.
+- The neural network is created by stacking layers—this requires three main architectural decisions:
+     # How to represent the text?
+     # How many layers to use in the model?
+     # How many hidden units to use for each layer?
+- Use a pre-trained text embedding as the first layer, which will have three advantages:
+    # You don't have to worry about text preprocessing,
+    # Benefit from transfer learning,
+    # the embedding has a fixed size, so it's simpler to process.
+ 
