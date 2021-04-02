@@ -1,0 +1,13 @@
+Tensor flow Learning updates for 02.04.21
+
+Source : https://www.tensorflow.org/tutorials/keras/regression
+
+Things learnt : 
+- Learned the difference between regression and classification
+- the aim is to predict the output of a continuous value, like a price or a probability
+- Learned how to build and train a model to predict the fuel efficiency - used Auto MGP dataset
+- Learnt about Seaborn - used for data visulazition
+- Normalization - It is good practice to normalize features that use different scales and ranges.
+- Although a model might converge without feature normalization, normalization makes training much more stable.
+- Learned how to do regression using both Linear and DNN models
+- Learned to store and reload models
