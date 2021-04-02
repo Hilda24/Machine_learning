@@ -1,0 +1,13 @@
+Fastai Learning updates for 02.04.21
+
+Source : https://www.youtube.com/watch?v=_QUEXsHfsA0
+
+Things learned : 
+
+- Learned more about overfitting
+- Understood the basic structure to create and train a model
+- Learner : contains the data and architecture 
+- Metrics : It is function that measures the quality of the model's predictions using the validation set - FastAi automatically creates a validation set from the given dataset
+- There is difference between the metric and loss function - metric is something we care about whereas loss is something the computer uses to check how well it is performing on a given task and seek to improve it
+- Learned about Transfer Learning - Using a predefined model to do different task to what it was orginally trained for
+- Learned about Fine tuning
