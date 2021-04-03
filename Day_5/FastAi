@@ -1,0 +1,16 @@
+Fastai Learning updates for 03.04.21
+
+Source : https://www.youtube.com/watch?v=_QUEXsHfsA0
+
+Things learned : 
+
+- Learned that computer vision can not only be used for classification of images containing objects but also sounds 
+- We can convert sounds into images by representing their frequencies
+- By this method, we can achieve state of the art results in sound detection by using the same RESNET learner that can be used for image classification
+- This has many applications - we can create images of gunshot, car horn and many more but the most important one is virus detection - we can classify differnet viruses with very high accuracy by using this method
+- Learned about the different states of deep learning : 
+  # Vision - Detection and classification
+  # text - Detection and conversation
+  # Tabular
+  # Multi - modal
+  # Others
