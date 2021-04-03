@@ -1,0 +1,12 @@
+Tensor flow Learning updates for 03.04.21
+
+Source : https://www.tensorflow.org/tutorials/keras/overfit_and_underfit
+
+Things learnt : 
+- The opposite of overfitting is underfitting. Underfitting occurs when there is still room for improvement on the train data.
+- This can happen for a number of reasons: If the model is not powerful enough, is over-regularized, or has simply not been trained long enough - we need to strike a balance
+- To prevent these kinds of issues, the best solution is to use Regularization.
+-  These place constraints on the quantity and type of information your model can store. 
+-  If a network can only afford to memorize a small number of patterns, the optimization process will force it to focus on the most prominent patterns, which have a better chance of generalizing well.
+- There is a balance between "too much capacity" and "not enough capacity". Unfortunately, there is no magical formula to determine the right size or architecture of your model (in terms of the number of layers, or the right size for each layer).
+- You will have to experiment using a series of different architectures.To find an appropriate model size, it's best to start with relatively few layers and parameters, then begin increasing the size of the layers or adding new layers until you see diminishing returns on the validation loss.
