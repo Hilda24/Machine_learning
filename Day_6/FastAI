@@ -1,0 +1,12 @@
+Fastai Learning updates for 04.04.21
+
+Source : https://www.youtube.com/watch?v=_QUEXsHfsA0
+
+Things learned : 
+
+- Learned about what is p-value and why we shouldn't relay on it 
+- Rather than depending upon the p-value to find the significance of our model, we should depend upon the actual output is our chosen relationship or equations between the different parameters is correct
+- Steps used to turn a predictive model into something useful in production
+- Learned how to gather data
+- Learned how to build a model - Datablock API
+- To export the model to any server so that it can be used as a pretrained program
