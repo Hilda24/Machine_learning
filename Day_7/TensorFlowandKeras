@@ -1,0 +1,14 @@
+Tensor flow Learning updates for 05.04.21
+
+Source : https://www.tensorflow.org/tutorials/keras/keras_tuner
+
+Things learnt : 
+- The Keras Tuner is a library that helps you pick the optimal set of hyperparameters for your TensorFlow program.
+- The process of selecting the right set of hyperparameters for your machine learning (ML) application is called hyperparameter tuning or hypertuning.
+- Hyperparameters are the variables that govern the training process and the topology of an ML model. 
+- These variables remain constant over the training process and directly impact the performance of your ML program. 
+- When you build a model for hypertuning, you also define the hyperparameter search space in addition to the model architecture. The model you set up for hypertuning is called a hypermodel.
+- You can define a hypermodel through two approaches:
+  # By using a model builder function
+  # By subclassing the HyperModel class of the Keras Tuner API
+- Learned to create a hypermodel using the first method and used Hyperband which is one of the four tuners given to us by keras tuner API to tune the built machine
