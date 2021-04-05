@@ -1,0 +1,16 @@
+Fastai Learning updates for 05.04.21
+
+Source : https://www.youtube.com/watch?v=5L3Ao5KuCC4&t=164s
+
+Things learned : 
+
+- Learnt how to resize all ur images:
+  # Squish method - basically it stretches or squishes the image to fit the given size
+  # padding - It adds padding(any color - zeros for black to fill the extra space)
+  # cropping - It crops the images to fit the size 
+- In each case there is lot of disadvantages -
+  # Squished - your model should be able to identify the object even if your images a squished or enlarged
+  # padding - Needs unnecessary computations - in the black padding regions where there is no need for any computation
+  # Cropping - It basically removes some information that might be essential to train the model
+- The most used method is Randomresizedcrop - what this does is that for each epoch it takes different sections of images and zooms in or squishes them....so when there is different images in every epoch we can minimize the chance of overfitting our model
+- This approach in which the model sees a different image for each epoch is called as data augmentation
