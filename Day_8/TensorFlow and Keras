@@ -1,0 +1,13 @@
+Tensor Flow Learning updates for 07.04.21
+
+Source : https://www.tensorflow.org/tutorials/load_data/images
+
+Things learnt : 
+- Learnt how to load and preprocess image dataset in three ways
+  # Using keras preprocessing utilities and layers
+  # Write our own pipeline from scratch using tf.data
+  # Download from the large catalog available in TensorFlow Datasets
+- Learnt to standardize the data - The RGB channel values are in the [0, 255] range. This is not ideal for a neural network;
+  in general you should seek to make your input values small. Here, we will standardize values to be in the [0, 1] by using a Rescaling layer.
+- These are two important methods you should use when loading data - cache and prefetch
+- For finer control, we can write our own pipeline from scratch using tf.data.
