@@ -1,0 +1,11 @@
+FastAi Learning updates for 05.04.21
+
+Source : https://www.youtube.com/watch?v=5L3Ao5KuCC4&t=164s
+
+Things learned : 
+
+- Image Classifier Clearner - we can clean the dataset after our model has been trained 
+- it will display the images that the mofel is least confident about and you can choose whether or not to keep or delete it. 
+- Learned more about voila - to see the working of our code with simple GUI components
+- Learned how to export the model that we trained - so that we can use it just like anyother trained program in any server that we decide to run our application
+- Learned how to deploy our notebooks using binder 
