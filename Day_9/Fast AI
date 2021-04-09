@@ -1,0 +1,10 @@
+FastAi Learning updates for 08.04.21
+
+Source : https://github.com/SharmilaS22/medium-google-search-api
+
+Things learned : 
+
+- Learned how to use Google Image search - for data collection
+- Collected the images of persian cats and bengal cats 
+- Fixed all the encountered errors
+- Started with a simple image classification model
