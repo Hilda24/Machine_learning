@@ -1,0 +1,14 @@
+Tensor Flow Learning updates for 08.04.21
+
+Source : https://www.tensorflow.org/tutorials/load_data/csv
+
+Things learnt : 
+- There are two main parts to this:
+  # Loading the data off disk
+  # Pre-processing it into a form suitable for training.
+- For any small CSV dataset the simplest way to train a TensorFlow model on it is to load it into memory as a pandas Dataframe or a NumPy array.
+- Then learnt how to normalize the model. Preprocessing The layer will precompute the mean and variance of each column, and use these to normalize the data. After the process of normalization, we can add this layer to our model
+- Then Learned how to load dataset with more than one datatype.
+-  For the string inputs use the preprocessing.StringLookup function to map from strings to integer indices in a vocabulary. Next, use preprocessing.CategoryEncoding to convert the indexes into float32 data appropriate for the model.
+- Then we can concatenate them - inputs and processed inputs and then build the our model
+ 
