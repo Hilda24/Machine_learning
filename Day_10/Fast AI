@@ -1,0 +1,13 @@
+FastAi Learning updates for 09.04.21
+
+Source : https://www.youtube.com/watch?v=5L3Ao5KuCC4&t=164s
+
+Things learned : 
+
+- Learned about out of domain data - the data that we are trying to inference is on is in someway different than the data that was used to train the model
+- Domain shift - At the starting the data will be in the main domaiin but as the time goes we will end up deviating from the domain
+- Learned about Feedback loops - if they are left unnoticed the model might take a minor issue and explode it 
+- The ways in which we have to solve the above problems are 
+   # Manual process - Run the machine in parallel with human supervision
+   # Limited Scope deployment - Under less human intervention but also with limited time and geography
+   # Gradual Expansion - Good reporting system and considering what might go wrong.
