@@ -1,0 +1,11 @@
+Tensor Flow Learning updates for 09.04.21
+
+Source : https://www.tensorflow.org/tutorials/load_data/numpy
+
+Things learnt : 
+- Learned how to load Python Numpy array
+- In this I used MNIST dataset . After we have  have an array of examples and a corresponding array of labels, pass the two arrays as a tuple into tf.data.Dataset.from_tensor_slices to create a tf.data.Dataset.
+- Then shuffled and batched that dataset using .shuffle or .batch functions
+- Then as usual build the model with tf.keras.sequential then compile the model
+- finally adapt the model with the .fit function. 
+- then evaluted the model which was created.
