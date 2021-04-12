@@ -1,0 +1,15 @@
+FastAi Learning updates for 10.04.21
+
+Source : https://www.youtube.com/watch?v=5L3Ao5KuCC4&t=164s
+
+Things learned : 
+
+- Started with a digit classifier model. Used the MINST dataset
+- untar_data - checks whether we have downloaded the data already, whether we have unzipped it and the necessary condition and returns the path of the data
+- Today i learnt how to classify only 3 and 7 so what we are doing is the we are putting all the 3's inside a directory named 3 and all the 7's under a directory named 7. After that we sort the file in each directories
+- Here we are using the Image class from the Python Imaging Library (PIL), which is the most widely used Python package for opening, manipulating, and viewing images. 
+- If we give our image to the Numpy array - it converts the image into a bunch of numbers. Instead of saying array we can also say tensor - it is basically the pytorch version of numpy
+- The array and the tensor will work nearly identical most of the time. The key difference is that a tensor can be computed in a GPU as well as CPU.
+- Then we convert the tensor into a panda dataframe - the reason why is because it has a function called as background-gradient - makes all the background as 0 and helps us understand what is really going on.
+- First we should always start with abaseline model - which is a simple model which can perform better than anyother random model
+-  For this model what wee are gonna do is that we are gonna take the mean value of very pixels in 3 ....|||ly we will do it for 7 . Then after that we take a data from val set and check if the mean value is closer to the ideal mean value of 3. This is called as  pixel similarity
