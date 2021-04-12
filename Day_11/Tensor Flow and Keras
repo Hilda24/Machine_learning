@@ -1,0 +1,14 @@
+Tensor Flow Learning updates for 10.04.21
+
+Source : https://www.tensorflow.org/tutorials/load_data/pandas_dataframe
+
+Things learnt : 
+- Learned how to load pandas dataframe 
+- Here we used a relatively small dataset provided by the Cleveland Clinic Foundation for Heart Disease.There are several hundred rows in the CSV. Each row describes a patient, and each column describes an attribute. We will use this information to predict whether a patient has heart disease, which in this dataset is a binary classification task.
+- As the first step we download the dataset using tf.keras.get_file() function
+- Then we read the csv file using read_csv ()
+- Check if there is any object datatype in the dataframe. If so convert it into a dicrete numerical value
+- Then we can finally load the data using tf.data.dataset
+- One of the advantages of using tf.data.Dataset is it allows you to write simple, highly efficient data pipelines.
+- Then as usual we can build the model with the loaded dataset and them compile it and finally fit our model to the data
+  
